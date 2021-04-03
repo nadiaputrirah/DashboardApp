@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.gallery.SkillFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/skill"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:text="GO"
+            android:textSize="14dp"
+            android:background="@drawable/mybutton1"
+            android:textColor="@color/white"
+            android:layout_marginTop="66dp"
+            android:layout_marginLeft="140dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="62dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298">
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/soft_skill"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Soft Skill"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="210dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298">
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/coding"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Coding"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="62dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508">
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/problem_solving"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Problem Solving"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="9dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="210dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508">
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/design"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Design"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:text="My Activity"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:text=" March 1, 2021"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1"
+        android:layout_marginStart="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector2"
+        android:layout_marginStart="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987">
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/activity_graph" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="S"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="M"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="T"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="144dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="W"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="T"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="236dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="F"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif"
+            android:text="S"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="118dp"-->
+<!--        android:layout_marginStart="132dp"-->
+<!--        app:cardCornerRadius="10dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.737">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            app:srcCompat="@drawable/web_designer"-->
+<!--            tools:ignore="VectorDrawableCompat" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="90dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="Web Developer"-->
+<!--            android:textColor="@color/dark1"-->
+<!--            android:textFontWeight="@android:integer/config_longAnimTime"-->
+<!--            android:textSize="12dp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="125dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="90dp"-->
+<!--            android:layout_marginTop="46dp"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="19 of the 30 materials have been completed"-->
+<!--            android:textColor="@color/dark1"-->
+<!--            android:textFontWeight="@android:integer/config_mediumAnimTime"-->
+<!--            android:textSize="10dp" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginLeft="90dp"-->
+<!--            android:layout_marginTop="58dp"-->
+<!--            app:srcCompat="@drawable/progress"-->
+<!--            tools:ignore="VectorDrawableCompat" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
